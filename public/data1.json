@@ -1,0 +1,98 @@
+[
+  {
+    "image": "../src/assets/icons8-notion-250.png",
+    "title": "Notion – Notes, Tasks & Wikis",
+    "companyName": "Notion Labs, Inc.",
+    "id": 1,
+    "description": "Notion is an all-in-one workspace...",
+    "size": 180,
+    "reviews": "2.2M",
+    "ratingAvg": 4.8,
+    "downloads": "50M",
+    "ratings": []
+  },
+  {
+    "image": "../src/assets/demo-app (1).webp",
+    "title": "PixelQuest – Adventure Game",
+    "companyName": "GameForge Studios",
+    "id": 2,
+    "description": "PixelQuest is a thrilling adventure game where you explore dungeons, collect treasures, and battle monsters.",
+    "size": 210,
+    "reviews": "4.5M",
+    "ratingAvg": 4.7,
+    "downloads": "120M",
+    "ratings": []
+  },
+  {
+    "image": "../src/assets/demo-app (2).webp",
+    "title": "BattleArena – Multiplayer Game",
+    "companyName": "NextLevel Games",
+    "id": 3,
+    "description": "BattleArena is a fast-paced multiplayer game with epic battles, unique characters, and global leaderboards.",
+    "size": 250,
+    "reviews": "3.7M",
+    "ratingAvg": 4.6,
+    "downloads": "80M",
+    "ratings": []
+  },
+  {
+    "image": "../src/assets/demo-app (3).webp",
+    "title": "TravelBuddy – Plan Your Trips",
+    "companyName": "GlobeTrotters Ltd.",
+    "id": 4,
+    "description": "TravelBuddy assists in planning trips, booking hotels, and discovering local attractions effortlessly.",
+    "size": 130,
+    "reviews": "6.2M",
+    "ratingAvg": 4.5,
+    "downloads": "95M",
+    "ratings": []
+  },
+  {
+    "image": "../src/assets/demo-app (4).webp",
+    "title": "FoodieMart – Online Grocery Store",
+    "companyName": "FreshTech Inc.",
+    "id": 5,
+    "description": "FoodieMart lets you shop for fresh groceries, snacks, and beverages online with fast delivery options.",
+    "size": 300,
+    "reviews": "5.9M",
+    "ratingAvg": 4.4,
+    "downloads": "110M",
+    "ratings": []
+  },
+  {
+    "image": "../src/assets/demo-app (5).webp",
+    "title": "EmojiCrafter – Create Your Own Emojis",
+    "companyName": "FunIcons Ltd.",
+    "id": 6,
+    "description": "EmojiCrafter allows you to design custom emojis, stickers, and share them across messaging apps.",
+    "size": 160,
+    "reviews": "2.8M",
+    "ratingAvg": 4.6,
+    "downloads": "70M",
+    "ratings": []
+  },
+  {
+    "image": "../src/assets/demo-app (6).webp",
+    "title": "DayPlanner – Organize Your Life",
+    "companyName": "ProductiveApps Inc.",
+    "id": 7,
+    "description": "DayPlanner helps you schedule tasks, set reminders, and plan your day for maximum productivity.",
+    "size": 220,
+    "reviews": "7.1M",
+    "ratingAvg": 4.7,
+    "downloads": "130M",
+    "ratings": []
+  },
+  {
+    "image": "../src/assets/weather-forecast.png",
+    "title": "SkyScape – Weather & Nature Explorer",
+    "companyName": "BlueHorizon Apps",
+    "id": 8,
+    "description": "SkyScape provides real-time weather updates, sky observations, and stunning nature photography from around the world.",
+    "size": 400,
+    "reviews": "3.9M",
+    "ratingAvg": 4.5,
+    "downloads": "60M",
+    "ratings": []
+  }
+]
