@@ -7,3 +7,13 @@
   color: transparent;
 
 }
+
+
+nav a.active {
+  text-decoration: underline;
+  text-decoration-color: #632EE3;
+  background: linear-gradient(to right, #632EE3, #9F62F2);
+  background-clip: text;
+  color: transparent;
+  
+}

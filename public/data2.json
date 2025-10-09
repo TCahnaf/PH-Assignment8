@@ -9,7 +9,13 @@
     "reviews": "50M",
     "ratingAvg": 4.8,
     "downloads": "500M",
-    "ratings": []
+    "ratings": [
+      { "name": "1 star", "count": 1000000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "3 star", "count": 1000000 },
+      { "name": "4 star", "count": 10000000 },
+      { "name": "5 star", "count": 33000000 }
+    ]
   },
   {
     "image": "../src/assets/spotify.png",
@@ -21,7 +27,13 @@
     "reviews": "25M",
     "ratingAvg": 4.7,
     "downloads": "400M",
-    "ratings": []
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "3 star", "count": 1100000 },
+      { "name": "4 star", "count": 9000000 },
+      { "name": "5 star", "count": 14500000 }
+    ]
   },
   {
     "image": "../src/assets/tiktok.png",
@@ -33,7 +45,13 @@
     "reviews": "40M",
     "ratingAvg": 4.6,
     "downloads": "450M",
-    "ratings": []
+    "ratings": [
+      { "name": "1 star", "count": 1500000 },
+      { "name": "2 star", "count": 800000 },
+      { "name": "3 star", "count": 5000000 },
+      { "name": "4 star", "count": 15000000 },
+      { "name": "5 star", "count": 22500000 }
+    ]
   },
   {
     "image": "../src/assets/instagram.png",
@@ -45,7 +63,13 @@
     "reviews": "30M",
     "ratingAvg": 4.7,
     "downloads": "350M",
-    "ratings": []
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 9500000 },
+      { "name": "5 star", "count": 18000000 }
+    ]
   },
   {
     "image": "../src/assets/icons8-notion-250.png",
@@ -57,7 +81,13 @@
     "reviews": "2.2M",
     "ratingAvg": 4.8,
     "downloads": "50M",
-    "ratings": []
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 10000 },
+      { "name": "3 star", "count": 20000 },
+      { "name": "4 star", "count": 400000 },
+      { "name": "5 star", "count": 1780000 }
+    ]
   },
   {
     "image": "../src/assets/demo-app (1).webp",
@@ -69,7 +99,13 @@
     "reviews": "4.5M",
     "ratingAvg": 4.7,
     "downloads": "120M",
-    "ratings": []
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 1300000 },
+      { "name": "5 star", "count": 2850000 }
+    ]
   },
   {
     "image": "../src/assets/demo-app (2).webp",
@@ -81,7 +117,13 @@
     "reviews": "3.7M",
     "ratingAvg": 4.6,
     "downloads": "80M",
-    "ratings": []
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 60000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "4 star", "count": 1200000 },
+      { "name": "5 star", "count": 2050000 }
+    ]
   },
   {
     "image": "../src/assets/demo-app (3).webp",
@@ -93,7 +135,13 @@
     "reviews": "6.2M",
     "ratingAvg": 4.5,
     "downloads": "95M",
-    "ratings": []
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 120000 },
+      { "name": "3 star", "count": 500000 },
+      { "name": "4 star", "count": 2000000 },
+      { "name": "5 star", "count": 3370000 }
+    ]
   },
   {
     "image": "../src/assets/demo-app (4).webp",
@@ -105,7 +153,13 @@
     "reviews": "5.9M",
     "ratingAvg": 4.4,
     "downloads": "110M",
-    "ratings": []
+    "ratings": [
+      { "name": "1 star", "count": 80000 },
+      { "name": "2 star", "count": 100000 },
+      { "name": "3 star", "count": 500000 },
+      { "name": "4 star", "count": 2200000 },
+      { "name": "5 star", "count": 2500000 }
+    ]
   },
   {
     "image": "../src/assets/demo-app (5).webp",
@@ -117,7 +171,13 @@
     "reviews": "2.8M",
     "ratingAvg": 4.6,
     "downloads": "70M",
-    "ratings": []
+    "ratings": [
+      { "name": "1 star", "count": 25000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 120000 },
+      { "name": "4 star", "count": 700000 },
+      { "name": "5 star", "count": 1975000 }
+    ]
   },
   {
     "image": "../src/assets/demo-app (6).webp",
@@ -129,7 +189,13 @@
     "reviews": "7.1M",
     "ratingAvg": 4.7,
     "downloads": "130M",
-    "ratings": []
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 60000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 1800000 },
+      { "name": "5 star", "count": 5100000 }
+    ]
   },
   {
     "image": "../src/assets/weather-forecast.png",
@@ -141,6 +207,12 @@
     "reviews": "3.9M",
     "ratingAvg": 4.5,
     "downloads": "60M",
-    "ratings": []
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 1300000 },
+      { "name": "5 star", "count": 2200000 }
+    ]
   }
 ]
