@@ -4,6 +4,7 @@ import Root from "../Components/Root/Root";
 import HomePage from "../Pages/HomePage/HomePage";
 import AppPage from "../Pages/AppPage/AppPage";
 import AppDetail from "../Pages/AppDetail/AppDetail";
+import InstallationList from "../Pages/InstallationList/InstallationList";
 
 
 export const router = createBrowserRouter([
@@ -24,9 +25,19 @@ export const router = createBrowserRouter([
   },
            {
              path:"/appDetails/:id",
-              loader: () => fetch('data2.json'),
+              loader: async() => {
+                const res = await fetch('/data2.json')
+                return res.json()
+                
+                },
              Component: AppDetail
                
+            },
+            {
+              path: "/installedList",
+              loader: ()=> fetch('data2.json'),
+              Component:InstallationList
+
             }
     ]
   },

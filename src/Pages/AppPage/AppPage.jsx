@@ -23,7 +23,7 @@ const handleSearch = e => {
 }
 
     return (
-        <div className='mt-20 space-y-9 min-h-screen bg-[#E9E9E9]'>
+        <div className=' p-20 space-y-9 min-h-screen bg-[#E9E9E9]'>
 
 
             <div className  = {`${isFiltered? 'hidden':''} space-y-5 `}>                   
