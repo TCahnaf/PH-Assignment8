@@ -8,6 +8,7 @@ import { BarChart, Bar, ResponsiveContainer, XAxis, YAxis, Label } from 'rechart
 import { addToStoredApps } from '../../utilities/DB';
 import { toast,ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css"
+import oopsImage from '../../assets/oops.png'
 
 const AppDetail = () => {
     const {id} = useParams();
@@ -15,13 +16,22 @@ const AppDetail = () => {
     console.log(applicationId)
     // const [filteredApp , setFilteredApp] = useState([])
     const data = useLoaderData();
-    console.log("here")
-    console.log(data)
+    // console.log("here")
+    // console.log(data)
 
     const targetedAPP = data.find(app => applicationId === app.id);
-    console.log(targetedAPP)
+    // console.log(targetedAPP)
     // setFilteredApp(filteredArray)
     // console.log(filteredApp)
+
+    if(!targetedAPP) {
+      return (
+        <div className="flex justify-center items-center h-screen
+                        "><h1 className="text-4xl text-center">OOPS !! No APP was FOUND !!</h1>
+                        <img src= {oopsImage} alt="" /></div>
+      )
+
+    }
 
     const {image, title, companyName, downloads, size, ratingAvg, reviews} = targetedAPP
     const reversedRatings = [...targetedAPP.ratings].reverse()

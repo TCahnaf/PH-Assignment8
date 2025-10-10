@@ -1,16 +1,30 @@
-# React + Vite
+# 🦸‍♂️ Hero IO
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Hero IO** is a web application that showcases trending mobile application to users. The webpage allows users to install applications and various
+data is provided regarding the applications.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌  Description
+The webpage utilizes react router for navigating to various pages which include a Home Page, All Apps Page, App Details page and Installed Apps page. 
+Relevant data regarding apps are shown using react rechart and each application is designed using a card layout. Each app card navigates the user to a 
+page where the apps are shown in more detail using visuals. User's are also able to track installed applications and uninstall them.
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠 Tech Stack & Tools
 
-## Expanding the ESLint configuration
+- **Frontend**: React, JavaScript, Tailwind CSS, DaisyUI
+- **Routing**: React Router
+- **State & Effects**: React useState, useEffect
+- **Charts**: Recharts
+- **Notifications**: React Toastify
+- **Storage**: LocalStorage
+- **Deployment**: Netlify 
+- **Design**: Figma
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🔧 Setup & Installation
+
+1. Clone the repository:
+   git clone https://github.com/TCahnaf/PH-Assignment8.git
