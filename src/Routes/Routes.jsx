@@ -15,12 +15,20 @@ export const router = createBrowserRouter([
     children: [
         {
             index:true,
-            loader: () => fetch('data1.json'),
+            loader:  async() => {
+                const res = await fetch('/data2.json')
+                return res.json()
+                
+                },
             Component:HomePage
         },
          {
             path: "/apps",
-            loader: ()=> fetch('data2.json'),
+            loader:  async() => {
+                const res = await fetch('/data2.json')
+                return res.json()
+                
+                },
             Component: AppPage
   },
            {
@@ -35,7 +43,11 @@ export const router = createBrowserRouter([
             },
             {
               path: "/installedList",
-              loader: ()=> fetch('data2.json'),
+              loader:  async() => {
+                const res = await fetch('/data2.json')
+                return res.json()
+                
+                },
               Component:InstallationList
 
             }

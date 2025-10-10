@@ -5,7 +5,9 @@ import downloadImg from '../../assets/icon-downloads.png'
 import ratingImg from '../../assets/icon-ratings.png'
 import reviewsImg from '../../assets/icon-review.png';
 import { BarChart, Bar, ResponsiveContainer, XAxis, YAxis, Label } from 'recharts';
-import { addToStoredApps } from '../../utilities/DB';
+import { addToStoredApps, getStoredApp } from '../../utilities/DB';
+import { toast,ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css"
 
 const AppDetail = () => {
     const {id} = useParams();
@@ -28,10 +30,14 @@ const AppDetail = () => {
 
         addToStoredApps(id)
 
-
-
-
     }
+
+ const [clickedInstall, setClickedInstall] = useState(false)
+
+      const handleClick = () =>{
+        setClickedInstall(true)
+    }
+
 
     return (
         <div className='min-h-screen bg-[#E9E9E9] p-20'>
@@ -65,8 +71,14 @@ const AppDetail = () => {
                             <h1 className='font-bold text-2xl'>{reviews}</h1>
                         </div>
                         </div>
-                        <button onClick={()=>handleMarkAsInstalled(id)} className=' bg-gradient-to-r from-[#54CF68]  to-[#00827A] text-white font-bold rounded-md h-[52px] w-[239px]'>
-                            Install Now ({size}MB)</button>
+                        <button disabled = {clickedInstall} onClick={()=>{handleMarkAsInstalled(id)
+                        handleClick()
+                          
+                            toast.success("App Has Installed Successfully")
+                        }
+                            
+                        } className=' bg-gradient-to-r from-[#54CF68]  to-[#00827A] text-white font-bold rounded-md h-[52px] w-[239px]'>
+                            {clickedInstall ? "Installed" : `Install Now (${size})MB`}</button>
                           
 
                         
@@ -123,7 +135,7 @@ const AppDetail = () => {
                 <p>{targetedAPP.description}</p>
             </div>
             
-
+<ToastContainer></ToastContainer>
         </div>
     );
 };

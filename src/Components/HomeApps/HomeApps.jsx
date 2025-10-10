@@ -1,7 +1,5 @@
 import React from 'react';
 
-import downloadImg from '../../assets/icon-downloads.png'
-import ratingImg from '../../assets/icon-ratings.png'
 import { useLoaderData } from 'react-router';
 import AppCards from '../../Pages/AppCards/AppCards';
 
