@@ -1,13 +1,13 @@
 # 🦸‍♂️ Hero IO
 
-**Hero IO** is a web application that showcases trending mobile application to users. The webpage allows users to install applications and various
+**Hero IO** is a web application that showcases trending mobile applications to users. The webpage allows users to install applications and various
 data is provided regarding the applications.
 
 ---
 
 ## 📌  Description
 The webpage utilizes react router for navigating to various pages which include a Home Page, All Apps Page, App Details page and Installed Apps page. 
-Relevant data regarding apps are shown using react rechart and each application is designed using a card layout. Each app card navigates the user to a 
+Relevant data regarding apps are shown using React Rechart and each application is designed using a card layout. Each app card navigates the user to a 
 page where the apps are shown in more detail using visuals. User's are also able to track installed applications and uninstall them.
 
 
