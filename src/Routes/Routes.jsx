@@ -6,7 +6,7 @@ import AppPage from "../Pages/AppPage/AppPage";
 import AppDetail from "../Pages/AppDetail/AppDetail";
 import InstallationList from "../Pages/InstallationList/InstallationList";
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
-import oopsImage from '../../src/assets/oops.png'
+
 
 
 export const router = createBrowserRouter([
@@ -43,7 +43,7 @@ export const router = createBrowserRouter([
                 },
                 errorElement:<div className="flex justify-center items-center h-screen
                 "><h1 className="text-4xl text-center">OOPS !! No APP was FOUND !!</h1>
-                <img src= {oopsImage} alt="" /></div>,
+                <img src="/images/oops.png"  alt="" /></div>,
              Component: AppDetail,
             
                

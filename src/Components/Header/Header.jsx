@@ -1,6 +1,6 @@
 import React from 'react';
-import logo from '../../assets/logo.png'
-import { Navigate, NavLink } from 'react-router';
+
+import { Link, Navigate, NavLink } from 'react-router';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
@@ -16,13 +16,15 @@ const Header = () => {
     return (
         <div>
             <nav className='md:flex justify-between items-center font-bold py-4 px-16 border-b-2 border-gray-100 '>
-                
 
-                <div className = "flex gap-2 items center justify-center">
-                    <img className='w-[40px] h-[40px]' src= {logo} alt="" />
+                <Link to = "/"> <div className = "flex gap-2 items center justify-center">
+                    <img className='w-[40px] h-[40px]' src= "/images/logo.png" alt="" />
                     <p className=' gradient-font mt-2'>HERO.IO</p>
 
-                </div>
+                </div></Link>
+                
+
+               
 
                 <div>
                           <ul className = "flex gap-3">

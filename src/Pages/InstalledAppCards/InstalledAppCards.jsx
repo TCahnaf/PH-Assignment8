@@ -1,6 +1,5 @@
 import React, {  } from 'react';
-import downloadImg from '../../assets/icon-downloads.png'
-import ratingImg from '../../assets/icon-ratings.png'
+
 
 const InstalledAppCards = ({installedApp, removeOperation}) => {
 
@@ -17,11 +16,11 @@ const InstalledAppCards = ({installedApp, removeOperation}) => {
                         <h3 className='font-bold'>{installedApp.title}</h3>
                         <div className='flex gap-4'>
                             <div className = "flex gap-2">
-                                <img className='h-[20px]' src = {downloadImg} alt="" />
+                                <img className='h-[20px]' src = "/images/icon-downloads.png" alt="" />
                                 <p className = "text-green-700">{installedApp.downloads}</p>
                             </div>
                             <div  className = "flex gap-2">
-                                <img className='h-[20px]' src= {ratingImg} alt="" />
+                                <img className='h-[20px]' src= "/images/icon-ratings.png" alt="" />
                                  <p className='text-amber-500'>{installedApp.ratingAvg}</p>
 
                             </div>

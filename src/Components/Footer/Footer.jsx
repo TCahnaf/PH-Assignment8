@@ -1,6 +1,4 @@
 import React from 'react';
-import logo from '../../assets/logo.png'
-
 
 const Footer = () => {
     return (
@@ -18,7 +16,7 @@ const Footer = () => {
     
     </svg>
     <div className='flex items-center gap-4'>
-        <img className='h-10 w-10 transform rotate-12' src = {logo}  alt="" />
+        <img className='h-10 w-10 transform rotate-12' src = "/images/logo.png"  alt="" />
         <h1 className='text-3xl gradient-font'>HERO.IO</h1>
     </div>
    

@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link, useLoaderData } from 'react-router';
 import AppCards from '../AppCards/AppCards';
-import searchIcon from '../../assets/loupe.png'
+
 import { useState } from 'react';
-import appNotFoundImg from '../../assets/App-Error.png'
+
 
 const AppPage = () => {
 
@@ -40,7 +40,7 @@ const handleSearch = e => {
 
                 <div className = "font-bold text-2xl">({!isFiltered?data.length:appsFiltered.length}) Apps Found</div>
                 <div className = "relative ">
-                    <img className = "h-6 w-6 absolute left-3 top-1/2 -translate-y-1/2" src= {searchIcon} alt="" />
+                    <img className = "h-6 w-6 absolute left-3 top-1/2 -translate-y-1/2" src= "/images/loupe.png" alt="" />
 
                     <input className = "border border-gray-300 rounded-md pl-10 w-[400px] h-[48px]" type="text" placeholder='search Apps' name = "search-bar" 
                     onChange={handleSearch} />
@@ -74,7 +74,7 @@ const handleSearch = e => {
 
              {appNotFound && ( <div className='flex flex-col justify-center space-y-7 mx-auto max-w-[800px]'>
                 <div className = "flex justify-center">
-                    <img src = {appNotFoundImg} alt="" />
+                    <img src = "/images/App-Error.png"alt="" />
                 </div>
                 <h1 className = "text-6xl font-bold text-center">OPPS!! APP NOT FOUND</h1>
                 <p className='text-[#627382] text-center'>The App you are requesting is not found on our system. please try other apps.</p>

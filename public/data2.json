@@ -1,6 +1,6 @@
 [
   {
-    "image": "../src/assets/youtube.png",
+    "image": "/images/youtube.png",
     "title": "YouTube – Watch & Share Videos",
     "companyName": "Google LLC",
     "id": 1,
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "image": "../src/assets/spotify.png",
+    "image": "/images/spotify.png",
     "title": "Spotify – Music Streaming",
     "companyName": "Spotify Ltd.",
     "id": 2,
@@ -36,7 +36,7 @@
     ]
   },
   {
-    "image": "../src/assets/tiktok.png",
+    "image": "/images/tiktok.png",
     "title": "TikTok – Short Video Platform",
     "companyName": "ByteDance Ltd.",
     "id": 3,
@@ -54,7 +54,7 @@
     ]
   },
   {
-    "image": "../src/assets/instagram.png",
+    "image": "/images/instagram.png",
     "title": "Instagram – Photos & Stories",
     "companyName": "Meta Platforms, Inc.",
     "id": 4,
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "image": "../src/assets/icons8-notion-250.png",
+    "image": "/images/icons8-notion-250.png",
     "title": "Notion – Notes, Tasks & Wikis",
     "companyName": "Notion Labs, Inc.",
     "id": 5,
@@ -90,7 +90,7 @@
     ]
   },
   {
-    "image": "../src/assets/demo-app (1).webp",
+    "image": "/images/demo-app-1.webp",
     "title": "PixelQuest – Adventure Game",
     "companyName": "GameForge Studios",
     "id": 6,
@@ -108,7 +108,7 @@
     ]
   },
   {
-    "image": "../src/assets/demo-app (2).webp",
+    "image": "/images/demo-app-2.webp",
     "title": "BattleArena – Multiplayer Game",
     "companyName": "NextLevel Games",
     "id": 7,
@@ -126,7 +126,7 @@
     ]
   },
   {
-    "image": "../src/assets/demo-app (3).webp",
+    "image": "/images/demo-app-3.webp",
     "title": "TravelBuddy – Plan Your Trips",
     "companyName": "GlobeTrotters Ltd.",
     "id": 8,
@@ -144,7 +144,7 @@
     ]
   },
   {
-    "image": "../src/assets/demo-app (4).webp",
+    "image": "/images/demo-app-4.webp",
     "title": "FoodieMart – Online Grocery Store",
     "companyName": "FreshTech Inc.",
     "id": 9,
@@ -162,7 +162,7 @@
     ]
   },
   {
-    "image": "../src/assets/demo-app (5).webp",
+    "image": "/images/demo-app-5.webp",
     "title": "EmojiCrafter – Create Your Own Emojis",
     "companyName": "FunIcons Ltd.",
     "id": 10,
@@ -180,7 +180,7 @@
     ]
   },
   {
-    "image": "../src/assets/demo-app (6).webp",
+    "image": "/images/demo-app-6.webp",
     "title": "DayPlanner – Organize Your Life",
     "companyName": "ProductiveApps Inc.",
     "id": 11,
@@ -198,7 +198,7 @@
     ]
   },
   {
-    "image": "../src/assets/weather-forecast.png",
+    "image": "/images/weather-forecast.png",
     "title": "SkyScape – Weather & Nature Explorer",
     "companyName": "BlueHorizon Apps",
     "id": 12,
@@ -216,7 +216,7 @@
     ]
   },
   {
-    "image": "../src/assets/treadmill.png",
+    "image": "/images/treadmill.png",
     "title": "FitTrack – Health & Fitness",
     "companyName": "WellnessTech Inc.",
     "id": 13,
@@ -234,7 +234,7 @@
     ]
   },
   {
-    "image": "../src/assets/camera.png",
+    "image": "/images/camera.png",
     "title": "PhotoMaster – Photo Editing",
     "companyName": "CreativeLabs",
     "id": 14,
@@ -252,7 +252,7 @@
     ]
   },
   {
-    "image": "../src/assets/news.png",
+    "image": "/images/news.png",
     "title": "NewsPulse – Daily News & Updates",
     "companyName": "GlobalMedia Inc.",
     "id": 15,
@@ -270,7 +270,7 @@
     ]
   },
   {
-    "image": "../src/assets/psychology.png",
+    "image": "/images/psychology.png",
     "title": "MindSpace – Meditation & Relaxation",
     "companyName": "CalmTech Ltd.",
     "id": 16,

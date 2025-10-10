@@ -1,6 +1,5 @@
 import React from 'react';
-import downloadImg from '../../assets/icon-downloads.png'
-import ratingImg from '../../assets/icon-ratings.png'
+
 import { Link } from 'react-router';
 
 const AppCards = ({eachCard}) => {
@@ -16,12 +15,12 @@ const AppCards = ({eachCard}) => {
         
                     <div className='flex justify-between w-full h-[30px] px-1  '>
                         <div className = "flex gap-2 items-center bg-gray-100 rounded-lg p-2">
-                            <img className='h-[20px]' src = {downloadImg} alt="" />
+                            <img className='h-[20px]' src = "/images/icon-downloads.png" alt="" />
                             <p className = "text-green-700">{eachCard.downloads}</p>
                         </div>
         
                         <div  className = "flex gap-2 items-center bg-[#D2D2D2] rounded-lg p-2 ">
-                            <img className='h-[20px]' src= {ratingImg} alt="" />
+                            <img className='h-[20px]' src= "/images/icon-ratings.png" alt="" />
                             <p className='text-amber-500'>{eachCard.ratingAvg}</p>
                         </div>
                     </div>

@@ -1,14 +1,12 @@
 import React, { useState } from 'react';
 import { useLoaderData, useParams } from 'react-router';
 import AppCards from '../AppCards/AppCards';
-import downloadImg from '../../assets/icon-downloads.png'
-import ratingImg from '../../assets/icon-ratings.png'
-import reviewsImg from '../../assets/icon-review.png';
+
 import { BarChart, Bar, ResponsiveContainer, XAxis, YAxis, Label } from 'recharts';
 import { addToStoredApps } from '../../utilities/DB';
 import { toast,ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css"
-import oopsImage from '../../assets/oops.png'
+
 
 const AppDetail = () => {
     const {id} = useParams();
@@ -24,14 +22,7 @@ const AppDetail = () => {
     // setFilteredApp(filteredArray)
     // console.log(filteredApp)
 
-    if(!targetedAPP) {
-      return (
-        <div className="flex justify-center items-center h-screen
-                        "><h1 className="text-4xl text-center">OOPS !! No APP was FOUND !!</h1>
-                        <img src= {oopsImage} alt="" /></div>
-      )
-
-    }
+    
 
     const {image, title, companyName, downloads, size, ratingAvg, reviews} = targetedAPP
     const reversedRatings = [...targetedAPP.ratings].reverse()
@@ -66,17 +57,17 @@ const AppDetail = () => {
 
                         <div className='flex gap-6 mt-8'>
                         <div className='space-y-3'>
-                            <img src= {downloadImg} alt="" />
+                            <img src= "/images/icon-downloads.png" alt="" />
                             <p>Downloads</p>
                             <h1 className='font-bold text-2xl'>{downloads}</h1>
                         </div>
                          <div className='space-y-3'>
-                            <img src= {ratingImg} alt="" />
+                            <img src= "/images/icon-ratings.png" alt="" />
                             <p>Average Ratings</p>
                             <h1 className='font-bold text-2xl'>{ratingAvg}</h1>
                         </div>
                          <div className='space-y-3'>
-                            <img src= {reviewsImg} alt="" />
+                            <img src= "/images/icon-review.png" alt="" />
                             <p> Total Reviews</p>
                             <h1 className='font-bold text-2xl'>{reviews}</h1>
                         </div>

@@ -1,6 +1,6 @@
 [
-  {
-    "image": "../src/assets/youtube.png",
+   {
+    "image": "/images/youtube.png",
     "title": "YouTube – Watch & Share Videos",
     "companyName": "Google LLC",
     "id": 1,
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "image": "../src/assets/spotify.png",
+    "image": "/images/spotify.png",
     "title": "Spotify – Music Streaming",
     "companyName": "Spotify Ltd.",
     "id": 2,
@@ -36,7 +36,7 @@
     ]
   },
   {
-    "image": "../src/assets/tiktok.png",
+    "image": "/images/tiktok.png",
     "title": "TikTok – Short Video Platform",
     "companyName": "ByteDance Ltd.",
     "id": 3,
@@ -54,7 +54,7 @@
     ]
   },
   {
-    "image": "../src/assets/instagram.png",
+    "image": "/images/instagram.png",
     "title": "Instagram – Photos & Stories",
     "companyName": "Meta Platforms, Inc.",
     "id": 4,
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "image": "../src/assets/icons8-notion-250.png",
+    "image": "/images/icons8-notion-250.png",
     "title": "Notion – Notes, Tasks & Wikis",
     "companyName": "Notion Labs, Inc.",
     "id": 5,
@@ -90,7 +90,7 @@
     ]
   },
   {
-    "image": "../src/assets/demo-app (1).webp",
+    "image": "/images/demo-app-1.webp",
     "title": "PixelQuest – Adventure Game",
     "companyName": "GameForge Studios",
     "id": 6,
@@ -108,7 +108,7 @@
     ]
   },
   {
-    "image": "../src/assets/demo-app (2).webp",
+    "image": "/images/demo-app-2.webp",
     "title": "BattleArena – Multiplayer Game",
     "companyName": "NextLevel Games",
     "id": 7,
@@ -126,7 +126,7 @@
     ]
   },
   {
-    "image": "../src/assets/demo-app (3).webp",
+    "image": "/images/demo-app-3.webp",
     "title": "TravelBuddy – Plan Your Trips",
     "companyName": "GlobeTrotters Ltd.",
     "id": 8,
