@@ -14,7 +14,7 @@ const HomeApps = () => {
         <div className='mt-20 px-4 max-w-7xl mx-auto'>
              
         <div className = " grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-7 justify-items-center">
-            {data.map(application => <AppCards eachCard={application}></AppCards>)}
+            {data.map(application => <AppCards key={application.id} eachCard={application}></AppCards>)}
 
           
         </div>

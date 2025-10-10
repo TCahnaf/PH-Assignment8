@@ -5,6 +5,8 @@ import HomePage from "../Pages/HomePage/HomePage";
 import AppPage from "../Pages/AppPage/AppPage";
 import AppDetail from "../Pages/AppDetail/AppDetail";
 import InstallationList from "../Pages/InstallationList/InstallationList";
+import ErrorPage from "../Pages/ErrorPage/ErrorPage";
+import oopsImage from '../../src/assets/oops.png'
 
 
 export const router = createBrowserRouter([
@@ -16,11 +18,12 @@ export const router = createBrowserRouter([
         {
             index:true,
             loader:  async() => {
-                const res = await fetch('/data2.json')
+                const res = await fetch('/data1.json')
                 return res.json()
                 
                 },
-            Component:HomePage
+            Component:HomePage,
+            
         },
          {
             path: "/apps",
@@ -38,7 +41,11 @@ export const router = createBrowserRouter([
                 return res.json()
                 
                 },
-             Component: AppDetail
+                errorElement:<div className="flex justify-center items-center h-screen
+                "><h1 className="text-4xl text-center">OOPS !! No APP was FOUND !!</h1>
+                <img src= {oopsImage} alt="" /></div>,
+             Component: AppDetail,
+            
                
             },
             {
@@ -50,9 +57,17 @@ export const router = createBrowserRouter([
                 },
               Component:InstallationList
 
+            },
+            {
+              path: '*',
+              Component: ErrorPage
             }
-    ]
+      
+          
+    ],
+   
   },
+
 
  
 

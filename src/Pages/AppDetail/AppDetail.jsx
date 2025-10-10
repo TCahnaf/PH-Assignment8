@@ -5,7 +5,7 @@ import downloadImg from '../../assets/icon-downloads.png'
 import ratingImg from '../../assets/icon-ratings.png'
 import reviewsImg from '../../assets/icon-review.png';
 import { BarChart, Bar, ResponsiveContainer, XAxis, YAxis, Label } from 'recharts';
-import { addToStoredApps, getStoredApp } from '../../utilities/DB';
+import { addToStoredApps } from '../../utilities/DB';
 import { toast,ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css"
 
@@ -130,7 +130,7 @@ const AppDetail = () => {
 
         
 
-            <div className  = "space-y-2 ml-9">
+            <div className  = "space-y-2 ml-9 mt-5">
                 <h1 className = "text-xl font-bold">Description</h1>
                 <p>{targetedAPP.description}</p>
             </div>
